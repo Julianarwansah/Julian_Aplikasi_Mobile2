@@ -1,5 +1,8 @@
-import 'package:julian_aplikasi_mobile2/julian_aplikasi_mobile2.dart' as julian_aplikasi_mobile2;
+void main() {
+  String namaLengkap = 'Julian Arwansah';
+  int umur = 21;
+  double tinggiBadan = 1.72;
+  bool aktif = false;
 
-void main(List<String> arguments) {
-  print('Hello world: ${julian_aplikasi_mobile2.calculate()}!');
+  print('Nama: $namaLengkap, Umur: $umur, Tinggi: $tinggiBadan, Aktif: $aktif');
 }
